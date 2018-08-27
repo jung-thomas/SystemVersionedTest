@@ -1,0 +1,19 @@
+USING Core;
+
+ENTITY TestingTable
+{
+    KEY Id        : Core.BusinessKey;
+        ValidFrom : Core.FullDateTime;
+        ValidTo   : Core.FullDateTime;
+        Name      : Core.NameT NOT NULL;
+        Building  : Core.NameT;
+}
+
+ENTITY TestingTableHistory
+{
+    Id        : Core.BusinessKey;
+    ValidFrom : Core.FullDateTime;
+    ValidTo   : Core.FullDateTime;
+    Name      : Core.NameT NOT NULL;
+    Building  : Core.NameT;
+};
