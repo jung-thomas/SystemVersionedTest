@@ -1,4 +1,4 @@
-COLUMN TABLE "TestingTableHistory2"(
+COLUMN TABLE "TestingTableHistory3"(
 	"Id" INTEGER CS_INT,
 	"ValidFrom" LONGDATE CS_LONGDATE,
 	"ValidTo" LONGDATE CS_LONGDATE,
