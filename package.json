@@ -1,0 +1,17 @@
+{
+  "name": "SystemVersionedTest",
+  "description": "System Versioned Test",
+  "version": "1.0.0",
+  "dependencies": {
+    "@sap/cds": ">=2.4"
+  },
+  "scripts": {
+    "build": "cds build/all --clean"
+  },
+  "cds": {
+    "data": {
+      "model": "hdb/"
+    }
+  },
+  "private": true
+}
